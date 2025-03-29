@@ -21,7 +21,7 @@ CMAKE_OPTIONS = \
     -DNZ=200 \
     -DSIM_TIME=100
 
-include CMake.mk
+include ../CMake.mk
 
 test: $(BUILD_DIR)/check_output.sh
 
